@@ -26,7 +26,7 @@ node {
        stage('SonarCoverageResults'){
 	
 	sh '''
-	  mvn clean verify sonar:sonar -Dsonar.projectKey=taxibooking -Dsonar.host.url=http://34.205.64.66:9000 -Dsonar.login=sqp_5fc0d8b28506c613376ff11c889e53f8be9e3503
+	  mvn clean verify sonar:sonar -Dsonar.projectKey=taxibooking -Dsonar.host.url=http://44.204.40.27:9000 -Dsonar.login=sqp_f8fc9d38a65a267b21059b7e1e6ca8f68c342fb3
 	'''
 	
 	
