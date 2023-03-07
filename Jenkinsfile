@@ -56,16 +56,16 @@ node {
 	
 	
 	}
-  /*stage('ConnectingToEKS'){
+   stage('ConnectingToEKS'){
 	
 	sh '''
-	  aws eks update-kubeconfig --region us-east-1 --name sample-ekscluster
+	  aws eks update-kubeconfig --region us-east-1 --name eksdemo
 	  kubectl get nodes
 
 	'''
 	
 	
 	
-	}*/
+	}
    
   }
