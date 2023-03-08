@@ -26,7 +26,7 @@ node {
        stage('SonarCoverageResults'){
 	
 	sh '''
-	  mvn clean verify sonar:sonar -Dsonar.projectKey=taxibooking -Dsonar.host.url=http://3.82.92.225:9001  -Dsonar.login=sqp_4bba13676ddc13228d117a33befd67aa0e88aa44
+	  mvn clean verify sonar:sonar -Dsonar.projectKey=srikanth -Dsonar.host.url=http://3.82.92.225:9001 -Dsonar.login=sqp_51a6dbf886c173f84ca532f2675ddc88d790ee81
 	'''
 	
 	
@@ -35,14 +35,14 @@ node {
 	
 	sh '''
 	  
-          curl -v -u admin:admin123 --upload-file /var/lib/jenkins/workspace/finalprojects/target/*.war http://3.82.92.225:8081/nexus/content/repositories/myrepo
+          curl -v -u admin:admin123 --upload-file /var/lib/jenkins/workspace/srikanth/target/*.war http://3.82.92.225:8081/nexus/content/repositories/srikanth
 	'''
 	
 	
 	}
        stage('DockerBuild'){
 	
-	app = docker.build("devopsvmr/811pm")
+	app = docker.build("devopsvmr/sri")
 	
 	
 	}
