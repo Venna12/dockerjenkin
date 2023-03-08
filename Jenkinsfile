@@ -26,7 +26,7 @@ node {
        stage('SonarCoverageResults'){
 	
 	sh '''
-	  mvn clean verify sonar:sonar -Dsonar.projectKey=taxibooking -Dsonar.host.url=http://44.204.40.27:9000 -Dsonar.login=sqp_f8fc9d38a65a267b21059b7e1e6ca8f68c342fb3
+	  mvn clean verify sonar:sonar -Dsonar.projectKey=taxibooking -Dsonar.host.url=http://3.82.92.225:9001  -Dsonar.login=sqp_4bba13676ddc13228d117a33befd67aa0e88aa44
 	'''
 	
 	
@@ -35,14 +35,14 @@ node {
 	
 	sh '''
 	  
-          curl -v -u admin:admin123 --upload-file /var/lib/jenkins/workspace/project1/target/*.war http://44.204.40.27:8081/nexus/content/repositories/myrepo
+          curl -v -u admin:admin123 --upload-file /var/lib/jenkins/workspace/finalprojects/target/*.war http://3.82.92.225:8081/nexus/content/repositories/myrepo
 	'''
 	
 	
 	}
        stage('DockerBuild'){
 	
-	app = docker.build("devopsvmr/11pm")
+	app = docker.build("devopsvmr/811pm")
 	
 	
 	}
@@ -56,7 +56,7 @@ node {
 	
 	
 	}
-   stage('ConnectingToEKS'){
+   /*stage('ConnectingToEKS'){
 	
 	sh '''
 	  aws eks update-kubeconfig --region us-east-1 --name eksdemo
@@ -66,6 +66,6 @@ node {
 	
 	
 	
-	}
+	}*/
    
   }
