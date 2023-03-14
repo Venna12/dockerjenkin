@@ -31,6 +31,6 @@ spec:
   selector:
     app: app1-nginx
   ports:
-    - port: 8080
+    - port: 8080gfggh
       targetPort: 8080
 
