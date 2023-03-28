@@ -13,3 +13,4 @@ CMD ["catalina.sh", "run"]
 vbc bs bs sb csbd
 bcs bs 
  bcxbcxs bcsx b
+hsashbcsabcab
