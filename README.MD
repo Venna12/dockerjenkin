@@ -8,3 +8,6 @@ BC SDB CBSDC BSD VCDS
 CVDNVBSDNV DSNV S
 DV SDNBVN
 good morning sir 
+dsfbsdncfbnds cn
+dsbds bncsd ns
+cdsd nvc dsn
