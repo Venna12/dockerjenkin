@@ -20,3 +20,6 @@ casncbsancn
 asnbcnas
 csabs ab
 asnm
+bsxcasbc absc asb 
+csabc bsa na 
+csana an
