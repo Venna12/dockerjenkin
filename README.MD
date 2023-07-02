@@ -11,3 +11,12 @@ good morning sir
 dsfbsdncfbnds cn
 dsbds bncsd ns
 cdsd nvc dsn
+bc dsbc bdc 
+cbda cbads csand 
+ascbas cnsa can
+ascabnban
+cnas cna cna
+casncbsancn
+asnbcnas
+csabs ab
+asnm
