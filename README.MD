@@ -33,3 +33,7 @@ vdsjvsdnj
 nvbndsvsdmnvs
 vcsdnbnabsa
 sd
+bc c nc nzxn zx n
+xn bxz zx 
+ xm xznm
+
