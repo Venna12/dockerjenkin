@@ -36,4 +36,8 @@ sd
 bc c nc nzxn zx n
 xn bxz zx 
  xm xznm
-
+nc vnxc vn vc zxc
+cm cxzm xcmz zxm xc
+vc,x vmzx ,z
+zxm zxm z,
+ndcasncamna
