@@ -16,6 +16,11 @@ cbda cbads csand
 ascbas cnsa can
 ascabnban
 cnas cna cna
+nz nd cDc
+cdnc asndcas
+san casn 
+msac am
+
 casncbsancn
 asnbcnas
 csabs ab
