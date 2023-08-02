@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: rupesh01/dockerjenkin:v2.0.0
+          image: rupesh01/dockerjenkin:v3.0.0
           ports:
             - containerPort: 8080
 ---
