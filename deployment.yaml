@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: rupesh01/dockerjenkins:v1.0.0 
+          image: devopsvmr/image24h:v1.0.0
           ports:
             - containerPort: 8080
 ---
